@@ -1,0 +1,151 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    background-color: #bfece3;
+    color: black;
+}
+
+header{
+    background-image: linear-gradient(to right,#10a683, #29a88c,#a1d0c5) ;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.navegacao{
+    text-align: right;
+    position: relative;
+    right: 10px;
+}
+.navegacao a{
+    color: black;
+    text-decoration: dashed;
+}
+.navegacao a:hover{
+    background-color: #10a683;
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.fachada{
+    position: relative;
+    background-image: url(/Trabalho/img/Fachada.jpg);
+    height: 100%;
+    opacity: 1;
+    padding: 30%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteudosobre{
+    display: flex;
+    flex-direction: column; /*jeito da coluna*/
+    margin: 15px 100px 25px 100px;
+    background-color: rgb(213, 228, 241);
+    padding: 20px; /*preenchimento*/
+    border-radius: 10px; /*arredondamento da div*/
+    box-shadow: 1px 1px 10px rgb(57, 151, 136); /*sombra em volta da box*/
+}
+.conteudosobre h1{
+    text-align: center;
+}
+.conteudosobre p{
+    text-align: justify;
+}
+.barra1{
+    position: relative;
+    left: 300px;
+    top: 68px;
+}
+.barra2{
+    position: relative;
+    right: 300px;
+    top: 50px;
+}
+
+.cadeiras img{
+   width: 400px;
+   display: flex;
+    background-color: rgb(213, 228, 241);
+    text-align: center;
+    border-radius: 10px; /*arredondamento da div*/
+    box-shadow: 1px 1px 10px rgb(57, 151, 136); /*sombra em volta da box*/
+}
+.cadeira2{
+    position: absolute;
+    top: 171px;
+    left: 460px;
+}
+
+.cadeira12{
+    position: absolute;
+    top: 171px;
+    right: 0px;
+}
+.cadeira4{
+    position: absolute;
+    top: 580px;
+    right: 0px;
+}
+.cadeira5{
+    position: relative;
+    top: 10px;
+}
+.cadeira6{
+    position: absolute;
+    top: 580px;
+    left: 460px;
+}
+.cadeira11{
+    position: relative;
+    top: 20px;
+}
+.cadeira7{
+    position: absolute;
+    top: 990px;
+    left: 460px;
+}
+.cadeira9{
+    position: absolute;
+    top: 990px;
+    right: 0px;
+}
+
+
+.rodape{
+   background-color: #10a683;
+    border-radius: 10px;
+    height: 160px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.certificados{
+    position: relative;
+    bottom:300px
+}
+.certificados img{
+    width: 80px;
+    position: relative;
+    left: 80%;
+}
+.rodape a{
+    text-decoration: none;
+    color: black;
+}
+
+.paginas{
+    position: relative;
+    text-align: left;
+}
+
+.contato{
+    position: relative;
+    bottom: 131px;
+    text-align: center;
+}
